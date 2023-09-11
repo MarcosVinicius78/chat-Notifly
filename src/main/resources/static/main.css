@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+}
+
+header{
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+}
+
+header h1{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+table {
+	margin: 10px;
+	width: 25%;
+}
+
+th {
+	text-align: left;
+}
+
+#conversation{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: antiquewhite;
+	height: 517px;
+}
+
+.mensagem{
+	position: absolute;
+	bottom: 3px;
+	left: 3px;
+	display: flex;
+	align-items: center;
+}
+
+#send{
+	margin-left: 3px;
+	width: 50px;
+	height: 55px;
+	border-radius: 10px;
+}
+
+#msg{
+	border-radius: 10px;
+	height: 50px;
+	width: 435px;
+}
+
+.opcaos{
+	background-color: black;
+	color: white;
+}
+
+.opcaos-con-desc{
+	display: flex;
+	justify-content: space-around;
+}
+
+.nomes{
+	display: flex;
+	justify-content: space-around;
+}
+
+.nomes input{
+	border-radius: 10px;
+	margin-top: 5px;
+	height: 30px;
+	width: 230px;
+}
+
+.opcaos-con-desc button{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 30px;
+	width: 200px;
+	border-radius: 10px;
+}
+
+.greetings-classe{
+	display: flex;
+	justify-content: left;
+}
+
+.sua-msg-classe{
+	display: flex;
+	justify-content: right;
+}
+
+#greetings{
+	display: inline-block;
+	background-color: white;
+	width: auto;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#sua-msg{
+	display: inline-block;
+	border-radius: 5px;
+	background-color: aliceblue;
+	width: auto;
+	padding: 10px;
+}
+
+.opcaos-con-desc button:hover{
+	background-color: rgb(129, 129, 129);
+}

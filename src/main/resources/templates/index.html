@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Spring Boot Tutorial - WebSocket</title>
+    <link href="/main.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.6.1/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+    <script src="/main.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Notifly</h1>
+    </header>
+
+    <div>
+        <div class="opcaos">
+            <div class="nomes">
+                <input type="text" id="name" placeholder="Digite seu nome...">
+                <input type="text" id="enviar" placeholder="Nome de seu amigo">
+            </div>
+            <div class="opcaos-con-desc">
+                <button id="connect">Conectar</button>
+                <button id="disconnect" disabled>Desconectar</button>
+            </div>
+        </div>
+        <div id="conversation">
+            <div class="greetings-classe">
+                <p id="greetings"></p>
+            </div>
+
+            <div class="sua-msg-classe">
+                <p id="sua-msg"></p>
+            </div>
+
+            <div class="mensagem">
+                <input type="text" id="msg" placeholder="Envie uma mensagem">
+                <button id="send" type="submit">Send</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
